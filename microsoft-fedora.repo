@@ -1,0 +1,41 @@
+[microsoft-fedora]
+name=Microsoft Fedora $releasever Prod
+baseurl=https://packages.microsoft.com/fedora/$releasever/prod
+enabled=0
+gpgcheck=1
+gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+
+[microsoft-edge-dev]
+name=Microsoft Edge Development
+baseurl=https://packages.microsoft.com/yumrepos/edge/
+enabled=0
+gpgcheck=1
+gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+
+[msteams]
+name=Microsoft Teams
+baseurl=https://packages.microsoft.com/yumrepos/ms-teams
+enabled=0
+gpgcheck=1
+gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+
+[vscode]
+name=Microsoft Visual Studio Code
+baseurl=https://packages.microsoft.com/yumrepos/vscode
+enabled=0
+gpgcheck=1
+gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+
+[azure-cli]
+name=Microsoft Azure CLI
+baseurl=https://packages.microsoft.com/yumrepos/azure-cli/
+enabled=0
+gpgcheck=1
+gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+
+[azure-core]
+name=Microsoft Azure Core
+baseurl=https://packages.microsoft.com/yumrepos/azurecore/
+enabled=0
+gpgcheck=1
+gpgkey=https://packages.microsoft.com/keys/microsoft.asc
